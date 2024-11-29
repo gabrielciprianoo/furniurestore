@@ -24,6 +24,10 @@ body {
     max-width: 1200px;
     margin: 0 auto;
 }
+.container-sm {
+    max-width: 700px;
+    margin: 0 auto;
+}
 
 h2 {
     color: #321c16;
@@ -462,4 +466,51 @@ img{
     gap: 2rem;
     
     margin: 5rem;
+}
+
+/* pagina de blog  */
+
+.blog-container{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 1rem;
+    margin: 5rem 0;
+}
+
+.posts-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.post{
+    display: flex;
+    font-size: .7rem;
+    gap: 1rem;
+}
+
+.post img{
+    width: 15rem;
+    height: auto;
+    object-fit: cover;
+}
+
+.post h3{
+   margin: 0;
+}
+.post p{
+   color: #6d6d6d;
+}
+
+
+.blog-button{
+    padding: .3rem;
+    background-color: #000000;
+    text-transform: capitalize;
+    color: #fafafa;
+    font-size: .6rem;
+}
+
+.main-post p{
+    color: #6d6d6d;
 }
