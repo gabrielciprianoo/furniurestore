@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ECOMMERCE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+  </head>
+  <body class="roboto-regular">
+    <header class="header container">
+      <a href="index.html"> <h1 class="site-name montserrat-700">Tienda <span>Muebles</span></h1></a>
+      <nav class="navbar montserrat-400">
+        <a href="index.html">Inicio</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="tienda.html">Tienda</a>
+        <a href="blog.html">Blog</a>
+        <a href="galeria.html">Galeria</a>
+        <a href="contacto.html">Contacto</a>
+      </nav>
+    </header>
+
+  
+
+    <main class="container">
+      
+        <h2>Contactanos</h2>
+
+        <form class="contact">
+            <fieldset>
+                <legend>Informacion Personal</legend>
+                <label for="name">Nombre:</label>
+                <input type="text" name="name" id="name" placeholder="Coloca tu nombre">
+
+                <label for="phone">Telefono:</label>
+                <input type="tel" name="phone" id="phone">
+
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email">
+            </fieldset>
+
+            <fieldset>
+                <legend>Informacion adicional</legend>
+                <label for="country">Selecciona tu pais</label>
+                <select name="country" id="country">
+                    <option value="">-- Selecciona un pais -- </option>
+                    <option value="MX">Mexico</option>
+                    <option value="USA">Estados Unidos</option>
+                    <option value="ARG">Argentina</option>
+                    <option value="COL">Colombia</option>
+                </select>
+            </fieldset>
+          </form>
+       
+
+    </main>
+    <footer class="site-footer container">
+     <div class="grid-footer">
+      <div>
+        <h3>Categorias</h3>
+        <nav class="nav-footer">
+          <a href="#">Cocina</a>
+          <a href="#">Oficina</a>
+          <a href="#">Jardin</a>
+          <a href="#">Cochera</a>
+          <a href="#">Dormitorios</a>
+        </nav>
+      </div>
+      <div>
+        <h3>Sobre Nosotros</h3>
+        <nav class="nav-footer">
+          <a href="#">Nuestra Historia</a>
+          <a href="#">Mision, Vision y Valores</a>
+          <a href="#">Carreras</a>
+          <a href="#">Politica de Privacidad</a>
+          <a href="#">Terminos del Servicio</a>
+        </nav class="nav-footer">
+      </div>
+      <div >
+        <h3>Soporte</h3>
+        <nav class="nav-footer"> 
+          <a href="#">Preguntas Frecuentes</a>
+          <a href="#">Ayuda en Linea</a>
+          <a href="#">Confianza y Seguridad</a>
+        </nav>
+      </div>
+    </div>
+    <p class="copyrigth">Todos los derechos reservados, TiendaMuebles</p>
+    </footer>
+  </body>
+</html>
