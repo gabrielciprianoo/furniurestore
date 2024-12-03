@@ -28,34 +28,51 @@
 
   
 
-    <main class="container">
+    <main class="container-sm">
       
         <h2>Contactanos</h2>
 
         <form class="contact">
             <fieldset>
                 <legend>Informacion Personal</legend>
-                <label for="name">Nombre:</label>
-                <input type="text" name="name" id="name" placeholder="Coloca tu nombre">
+                <div class="field">
+                  <label for="name">Nombre:</label>
+                  <input type="text" name="name" id="name" placeholder="Coloca tu nombre">
+                </div>
 
-                <label for="phone">Telefono:</label>
-                <input type="tel" name="phone" id="phone">
+                <div class="field">
+                  <label for="phone">Telefono:</label>
+                  <input type="tel" name="phone" id="phone" placeholder="Ingresa tu numero de telefono">
+                </div>
+                
+                
 
-                <label for="email">Email:</label>
-                <input type="email" name="email" id="email">
+                <div class="field">
+                  <label for="email">Email:</label>
+                  <input type="email" name="email" id="email" placeholder="Ingresa tu email">
+                </div>
             </fieldset>
 
             <fieldset>
                 <legend>Informacion adicional</legend>
-                <label for="country">Selecciona tu pais</label>
-                <select name="country" id="country">
-                    <option value="">-- Selecciona un pais -- </option>
-                    <option value="MX">Mexico</option>
-                    <option value="USA">Estados Unidos</option>
-                    <option value="ARG">Argentina</option>
-                    <option value="COL">Colombia</option>
-                </select>
+                  <div class="field">
+                    <label for="country">Selecciona tu pais</label>
+                    <select name="country" id="country">
+                      <option value="">-- Selecciona un pais -- </option>
+                      <option value="MX">Mexico</option>
+                      <option value="USA">Estados Unidos</option>
+                      <option value="ARG">Argentina</option>
+                      <option value="COL">Colombia</option>
+                    </select>
+                  </div>
+                <div class="field">
+                  <label for="mesage">Mensaje:</label>
+                  <textarea name="mesage" id="mesage" cols="4" rows="4">
+                  </textarea>
+                </div>
             </fieldset>
+
+            <input class="form-button" type="submit" value="Enviar Mensaje">
           </form>
        
 
