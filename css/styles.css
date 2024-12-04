@@ -351,17 +351,6 @@ img {
 
 }
 
-/* about section */
-
-/* .about{
-    margin-top: 3rem;
-    background-image: linear-gradient(to right,
-        transparent 50%, #b6833a 50%,#b6833a 100%
-    ), url(../img/nosotros.jpg);
-    background-position: left center;
-    background-repeat: no-repeat;
-    padding: 10rem 0;
-} */
 .about {
     margin-top: 3rem;
     display: flex;
