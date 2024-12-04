@@ -379,7 +379,7 @@ img{
     height: 20rem;
 }
 
-@media (min-width: 768px) { 
+@media (min-width: 968px) { 
     .about{
         flex-direction: row;
         height: 20rem;
