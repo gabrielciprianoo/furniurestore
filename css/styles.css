@@ -290,6 +290,7 @@ img {
     justify-content: space-between;
     gap: 2rem;
     overflow-x: scroll;
+    padding: 0 1rem;
 }
 
 @media (min-width: 1024px) {
@@ -502,6 +503,9 @@ img {
 
 /* footer */
 
+footer{
+padding: 0 1rem;
+}
 .site-footer {
     border-top: solid 1px #bdbdbd;
 }
