@@ -669,6 +669,10 @@ img {
 
 /* contact form */
 
+.contact{
+    padding: 1rem;
+}
+
 .contact fieldset {
     display: flex;
     flex-direction: column;
