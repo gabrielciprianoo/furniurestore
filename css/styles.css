@@ -181,6 +181,10 @@ img{
     font-style: normal;
 }
 
+.p-0{
+    padding: 0;
+}
+
 
 
 /* header */
@@ -204,8 +208,7 @@ img{
     display: flex; 
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly
-    ;
+    justify-content: space-evenly;
 
 }
 
@@ -253,18 +256,31 @@ img{
     justify-content: space-between;
 }
 
-
-
 .header {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: column;
 }
+
+@media (min-width: 1024px) { 
+    .header {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
 
 .navbar {
     display: flex;
     justify-content: space-between;
     gap: 2rem;
+    overflow-x: scroll;
+}
+
+@media (min-width: 1024px) { 
+   .navbar{
+    overflow-x: visible;
+   }
 }
 
 /* categories */
