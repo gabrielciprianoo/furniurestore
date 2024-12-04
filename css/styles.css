@@ -301,7 +301,13 @@ img{
 
 .category-list {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+   
+}
+
+@media (min-width: 968px) { 
+    .category-list{
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
 
 .category p {
