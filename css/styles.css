@@ -504,9 +504,12 @@ img{
 .grid-footer{
     margin-top: 2rem;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-   
+    gap: 1rem;
 }
+.grid-footer h3{
+    text-align: center;
+}
+
 
 .nav-footer{
     display: flex;
@@ -517,6 +520,23 @@ img{
     padding: 0;
     color: #6b6b6b;
     font-size: .8rem;
+    text-align: center;
+}
+
+
+@media (min-width: 678px) { 
+    .grid-footer{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .grid-footer h3{
+        text-align: left;
+    }
+
+    .nav-footer a{
+        text-align: left;
+    }
+    
 }
 
 .copyrigth{
