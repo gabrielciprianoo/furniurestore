@@ -216,6 +216,13 @@ img{
     color: #FAFAFA;
     text-align: center;
     margin: 0;
+    font-size: 1.5rem;
+}
+
+@media (min-width: 968px) { 
+    .hero h2{
+        font-size: 2rem;
+    }
 }
 
 .rating {
@@ -251,9 +258,16 @@ img{
 
 .calltoaction{
     display: flex;
+    flex-direction: column;
     gap: 2rem;
     align-items: center;
     justify-content: space-between;
+}
+
+@media (min-width: 968px) { 
+    .calltoaction{
+        flex-direction: row;
+    }
 }
 
 .header {
